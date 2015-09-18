@@ -1,6 +1,6 @@
 class ssh{
 	package {'package':
-		name => 'openssh',
+		name => 'openssh*',
 		ensure => 'present',
 		}
 	file {'/var/tmp/ssh.txt':
